@@ -1,7 +1,6 @@
-import React from "react";
-
+import Todo from "../components/todo-page/todo";
 const TodoPage = () => {
-  return <h1>Todo Here</h1>;
+  return <Todo />;
 };
 
 export default TodoPage;

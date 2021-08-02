@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid gray;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.links li {
+  transition: transform 100ms ease;
+}
+
+.links li:hover {
+  transform: scale(1.05);
+}

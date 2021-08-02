@@ -1,0 +1,16 @@
+.todo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo h1 {
+  /* color: #e8e4c9; */
+  border-color: #292929;
+  line-height: 0.75em;
+  font-size: 2em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}

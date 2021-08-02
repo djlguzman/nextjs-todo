@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: calc(100vh - 51px);
+  overflow-x: hidden;
+}
+
+.home h2 {
+  cursor: pointer;
+  transition: transform 100ms ease;
+}
+
+.home h2:hover {
+  transform: scale(1.1);
+}
