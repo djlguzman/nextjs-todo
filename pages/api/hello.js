@@ -1,6 +1,8 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 
 const newKey = process.env.NEW_KEY;
+console.log(process.env.NEW_KEY)
+console.log(process.env.TEST_KEY)
 
 console.log(newKey)
 console.log("test branch deploys")
