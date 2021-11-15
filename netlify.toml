@@ -1,2 +1,5 @@
+[build.environment]
+    NEW_KEY = "From Netlify Toml"
+
 [context.production.environment]
     NEW_KEY = "From Netlify Toml"
