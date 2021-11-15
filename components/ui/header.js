@@ -3,6 +3,8 @@ import Link from "next/link";
 import classes from "./header.module.css";
 
 const Header = () => {
+  console.log(process.env.TEST_KEY)
+
   return (
     <header className={classes.header}>
       <nav>
