@@ -3,3 +3,6 @@
 
 [context.production.environment]
     NEW_KEY = "From Netlify Toml"
+
+[context.develop.environment]
+    NEW_KEY = "DEV KEY TOML"

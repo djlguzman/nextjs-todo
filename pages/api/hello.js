@@ -2,6 +2,8 @@
 
 const newKey = process.env.NEW_KEY;
 
+console.log(newKey)
+
 export default function handler(req, res) {
   console.log(process.env.TEST_KEY)
   console.log(newKey)
