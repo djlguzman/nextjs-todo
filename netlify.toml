@@ -6,3 +6,6 @@
 
 [context.develop.environment]
     NEW_KEY = "DEV KEY TOML"
+
+[context.develop]
+    command = "npm run build && cp cp _branchdeploy_headers public/_headers"
