@@ -8,4 +8,4 @@
     NEW_KEY = "DEV KEY TOML"
 
 [context.develop]
-    command = "cp _branchdeploy_headers _headers"
+    command = "cp _branchdeploy_headers _headers && npm run build"
